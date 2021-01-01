@@ -1,4 +1,4 @@
-# ${project}
+# demo-dsproject
 
 Demonstration of a project generated with the Data Science project extension of PyScaffold
 
@@ -10,15 +10,15 @@ A longer description of your project goes here...
 
 In order to set up the necessary environment:
 
-1. create an environment `${project}` with the help of [conda],
+1. create an environment `demo-dsproject` with the help of [conda],
    ```
-   conda env create -f environment.yaml
+   conda env create -f environment.yml
    ```
 2. activate the new environment with
    ```
-   conda activate ${project}
+   conda activate demo-dsproject
    ```
-3. install `${project}` with:
+3. install `demo-dsproject` with:
    ```
    python setup.py install # or `develop`
    ```
@@ -45,17 +45,17 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Dependency Management & Reproducibility
 
-1. Always keep your abstract (unpinned) dependencies updated in `environment.yaml` and eventually
+1. Always keep your abstract (unpinned) dependencies updated in `environment.yml` and eventually
    in `setup.cfg` if you want to ship and install your package via `pip` later on.
-2. Create concrete dependencies as `environment.lock.yaml` for the exact reproduction of your
+2. Create concrete dependencies as `environment.lock.yml` for the exact reproduction of your
    environment with:
    ```
-   conda env export -n ${project} -f environment.lock.yaml
+   conda env export -n demo-dsproject -f environment.lock.yml
    ```
    For multi-OS development, consider using `--no-builds` during the export.
-3. Update your current environment with respect to a new `environment.lock.yaml` using:
+3. Update your current environment with respect to a new `environment.lock.yml` using:
    ```
-   conda env update -f environment.lock.yaml --prune
+   conda env update -f environment.lock.yml --prune
    ```
 ## Project Organization
 
@@ -71,7 +71,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 │   ├── processed           <- The final, canonical data sets for modeling.
 │   └── raw                 <- The original, immutable data dump.
 ├── docs                    <- Directory for Sphinx documentation in rst or md.
-├── environment.yaml        <- The conda environment file for reproducibility.
+├── environment.yml        <- The conda environment file for reproducibility.
 ├── models                  <- Trained and serialized models, model predictions,
 │                              or model summaries.
 ├── notebooks               <- Jupyter notebooks. Naming convention is a number (for
@@ -97,7 +97,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5a1.post4+gaa979f7.
+This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5a1.post7+g9f385ac.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/

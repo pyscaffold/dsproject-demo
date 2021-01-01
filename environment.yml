@@ -1,4 +1,4 @@
-name: ${project}
+name: demo-dsproject
 channels:
   - defaults
   - conda-forge
