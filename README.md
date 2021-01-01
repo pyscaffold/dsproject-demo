@@ -71,7 +71,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 │   ├── processed           <- The final, canonical data sets for modeling.
 │   └── raw                 <- The original, immutable data dump.
 ├── docs                    <- Directory for Sphinx documentation in rst or md.
-├── environment.yml        <- The conda environment file for reproducibility.
+├── environment.yml         <- The conda environment file for reproducibility.
 ├── models                  <- Trained and serialized models, model predictions,
 │                              or model summaries.
 ├── notebooks               <- Jupyter notebooks. Naming convention is a number (for
@@ -97,7 +97,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5b3.post2+gc1881b7.
+This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5b3.post3+g92310e2.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
