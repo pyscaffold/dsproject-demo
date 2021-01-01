@@ -1,4 +1,4 @@
-name: dsproject-demo
+name: ${project}
 channels:
   - defaults
   - conda-forge

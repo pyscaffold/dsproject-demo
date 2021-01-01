@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* Florian Wilhelm <Florian.Wilhelm@inovex.de>
+* John Doe <john.doe@example.com>

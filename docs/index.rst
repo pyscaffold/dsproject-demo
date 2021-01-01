@@ -1,8 +1,8 @@
 ==============
-dsproject-demo
+demo-dsproject
 ==============
 
-This is the documentation of **dsproject-demo**.
+This is the documentation of **demo-dsproject**.
 
 .. note::
 

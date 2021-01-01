@@ -1,6 +1,6 @@
-# dsproject-demo
+# ${project}
 
-This is just a demonstration which was set up with `putup --dsproject dsproject-demo`
+Demonstration of a project generated with the Data Science project extension of PyScaffold
 
 ## Description
 
@@ -10,15 +10,15 @@ A longer description of your project goes here...
 
 In order to set up the necessary environment:
 
-1. create an environment `dsproject-demo` with the help of [conda],
+1. create an environment `${project}` with the help of [conda],
    ```
    conda env create -f environment.yaml
    ```
 2. activate the new environment with
    ```
-   conda activate dsproject-demo
+   conda activate ${project}
    ```
-3. install `dsproject-demo` with:
+3. install `${project}` with:
    ```
    python setup.py install # or `develop`
    ```
@@ -28,6 +28,7 @@ Optional and needed only once after `git clone`:
 4. install several [pre-commit] git hooks with:
    ```
    pre-commit install
+   # You might also want to run `pre-commit autoupdate`
    ```
    and checkout the configuration under `.pre-commit-config.yaml`.
    The `-n, --no-verify` flag of `git commit` can be used to deactivate pre-commit hooks temporarily.
@@ -49,7 +50,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 2. Create concrete dependencies as `environment.lock.yaml` for the exact reproduction of your
    environment with:
    ```
-   conda env export -n dsproject-demo -f environment.lock.yaml
+   conda env export -n ${project} -f environment.lock.yaml
    ```
    For multi-OS development, consider using `--no-builds` during the export.
 3. Update your current environment with respect to a new `environment.lock.yaml` using:
@@ -85,16 +86,18 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── setup.py                <- Use `python setup.py develop` to install for development or
 |                              or create a distribution with `python setup.py bdist_wheel`.
 ├── src
-│   └── dsproject_demo      <- Actual Python package where the main functionality goes.
+│   └── demo_dsproject      <- Actual Python package where the main functionality goes.
 ├── tests                   <- Unit tests which can be run with `py.test`.
 ├── .coveragerc             <- Configuration for coverage reports of unit tests.
 ├── .isort.cfg              <- Configuration for git hook that sorts imports.
 └── .pre-commit-config.yaml <- Configuration of pre-commit git hooks.
 ```
 
+<!-- pyscaffold-notes -->
+
 ## Note
 
-This project has been set up using PyScaffold 3.2.2 and the [dsproject extension] 0.4.
+This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5a1.post4+gaa979f7.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
