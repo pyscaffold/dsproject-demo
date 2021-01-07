@@ -84,23 +84,28 @@ extensions = [
 templates_path = ["_templates"]
 
 
-# To configure AutoStructify
+# Configure AutoStructify
+# https://recommonmark.readthedocs.io/en/latest/auto_structify.html
 def setup(app):
     from recommonmark.transform import AutoStructify
 
     params = {
+        "enable_auto_toc_tree": True,
         "auto_toc_tree_section": "Contents",
+        "auto_toc_maxdepth": 2,
         "enable_eval_rst": True,
-        "enable_auto_doc_ref": True,
         "enable_math": True,
         "enable_inline_math": True,
     }
     app.add_config_value("recommonmark_config", params, True)
     app.add_transform(AutoStructify)
 
+
+# Enable markdown
+extensions.append("recommonmark")
+
 # The suffix of source filenames.
-source_suffix = ['.rst', '.md']
-extensions.append('recommonmark')
+source_suffix = [".rst", ".md"]
 
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'

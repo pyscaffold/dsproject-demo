@@ -1,3 +1,5 @@
+[\![ReadTheDocs](https://readthedocs.org/projects/dsproject-demo/badge/?version=latest)](https://dsproject-demo.readthedocs.io/)
+
 # demo-dsproject
 
 Demonstration of a project generated with the Data Science project extension of PyScaffold
@@ -97,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0b2 and the [dsproject extension] 0.5b3.post3+g92310e2.
+This project has been set up using PyScaffold 4.0b3 and the [dsproject extension] 0.5b3.post16+g2f353e6.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
