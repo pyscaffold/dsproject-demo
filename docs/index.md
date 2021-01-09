@@ -35,3 +35,4 @@ Demonstration of a project generated with the Data Science project extension of 
 [Markdown]: https://daringfireball.net/projects/markdown/
 [reStructuredText]: http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
 [recommonmark]: https://recommonmark.readthedocs.io/en/latest
+[autostructify]: https://recommonmark.readthedocs.io/en/latest/auto_structify.html

@@ -99,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0b3 and the [dsproject extension] 0.5b3.post17+ga9a7a46.
+This project has been set up using PyScaffold 4.0b4 and the [dsproject extension] 0.5b4.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
