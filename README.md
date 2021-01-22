@@ -62,8 +62,8 @@ Then take a look into the `scripts` and `notebooks` folders.
 ## Project Organization
 
 ```
-├── AUTHORS.rst             <- List of developers and maintainers.
-├── CHANGELOG.rst           <- Changelog to keep track of new features and fixes.
+├── AUTHORS.md              <- List of developers and maintainers.
+├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
 ├── LICENSE.txt             <- License as chosen on the command-line.
 ├── README.md               <- The top-level README for developers.
 ├── configs                 <- Directory for configurations of model & application.
@@ -99,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0b4 and the [dsproject extension] 0.5b4.
+This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
