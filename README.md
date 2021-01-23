@@ -12,11 +12,11 @@ A longer description of your project goes here...
 
 In order to set up the necessary environment:
 
-1. review and uncomment what you need in `environment.yml` and create an environment `demo-dsproject` with the help of [conda],
+1. review and uncomment what you need in `environment.yml` and create an environment `demo-dsproject` with the help of [conda]:
    ```
    conda env create -f environment.yml
    ```
-2. activate the new environment with
+2. activate the new environment with:
    ```
    conda activate demo-dsproject
    ```
@@ -99,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.post4+gd2d2827.
+This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.6.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
