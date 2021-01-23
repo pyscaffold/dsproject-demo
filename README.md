@@ -12,7 +12,7 @@ A longer description of your project goes here...
 
 In order to set up the necessary environment:
 
-1. create an environment `demo-dsproject` with the help of [conda],
+1. review and uncomment what you need in `environment.yml` and create an environment `demo-dsproject` with the help of [conda],
    ```
    conda env create -f environment.yml
    ```
@@ -22,7 +22,7 @@ In order to set up the necessary environment:
    ```
 
 > **_NOTE:_**  The conda environment will have demo-dsproject installed in editable mode.
-> Some changes, e.g. in `setup.cfg` might require you to run `pip install -e .` again.
+> Some changes, e.g. in `setup.cfg`, might require you to run `pip install -e .` again.
 
 
 Optional and needed only once after `git clone`:
@@ -99,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.post1+g5c6b029.
+This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.post4+gd2d2827.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
