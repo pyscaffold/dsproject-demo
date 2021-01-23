@@ -20,23 +20,23 @@ In order to set up the necessary environment:
    ```
    conda activate demo-dsproject
    ```
-3. install `demo-dsproject` with:
-   ```
-   python setup.py install # or `develop`
-   ```
+
+> **_NOTE:_**  The conda environment will have demo-dsproject installed in editable mode.
+> Some changes, e.g. in `setup.cfg` might require you to run `pip install -e .` again.
+
 
 Optional and needed only once after `git clone`:
 
-4. install several [pre-commit] git hooks with:
-   ```
+3. install several [pre-commit] git hooks with:
+   ```bash
    pre-commit install
    # You might also want to run `pre-commit autoupdate`
    ```
    and checkout the configuration under `.pre-commit-config.yaml`.
    The `-n, --no-verify` flag of `git commit` can be used to deactivate pre-commit hooks temporarily.
 
-5. install [nbstripout] git hooks to remove the output cells of committed notebooks with:
-   ```
+4. install [nbstripout] git hooks to remove the output cells of committed notebooks with:
+   ```bash
    nbstripout --install --attributes notebooks/.gitattributes
    ```
    This is useful to avoid large diffs due to plots in your notebooks.
@@ -51,12 +51,12 @@ Then take a look into the `scripts` and `notebooks` folders.
    in `setup.cfg` if you want to ship and install your package via `pip` later on.
 2. Create concrete dependencies as `environment.lock.yml` for the exact reproduction of your
    environment with:
-   ```
+   ```bash
    conda env export -n demo-dsproject -f environment.lock.yml
    ```
    For multi-OS development, consider using `--no-builds` during the export.
 3. Update your current environment with respect to a new `environment.lock.yml` using:
-   ```
+   ```bash
    conda env update -f environment.lock.yml --prune
    ```
 ## Project Organization
@@ -99,7 +99,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.
+This project has been set up using PyScaffold 4.0rc1 and the [dsproject extension] 0.5.1.post1+g5c6b029.
 For details and usage information on PyScaffold see https://pyscaffold.org/.
 
 [conda]: https://docs.conda.io/
