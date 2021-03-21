@@ -2,7 +2,7 @@
     Setup file for demo-dsproject.
     Use setup.cfg to configure your project.
 
-    This file was generated with PyScaffold 4.0.
+    This file was generated with PyScaffold 4.0.1.
     PyScaffold helps you to put up the scaffold of your new Python project.
     Learn more under: https://pyscaffold.org/
 """

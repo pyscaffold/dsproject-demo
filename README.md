@@ -79,14 +79,15 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── notebooks               <- Jupyter notebooks. Naming convention is a number (for
 │                              ordering), the creator's initials and a description,
 │                              e.g. `1.0-fw-initial-data-exploration`.
+├── pyproject.toml          <- Build system configuration. Do not change!
 ├── references              <- Data dictionaries, manuals, and all other materials.
 ├── reports                 <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures             <- Generated plots and figures for reports.
 ├── scripts                 <- Analysis and production scripts which import the
-│                              actual PYTHON_PKG, e.g. train_model.
+│                              actual Python package, e.g. train_model.py.
 ├── setup.cfg               <- Declarative configuration of your project.
-├── setup.py                <- Use `python setup.py develop` to install for development or
-|                              or create a distribution with `python setup.py bdist_wheel`.
+├── setup.py                <- Use `pip install -e .` to install for development or
+|                              or create a distribution with `tox -e build`.
 ├── src
 │   └── demo_dsproject      <- Actual Python package where the main functionality goes.
 ├── tests                   <- Unit tests which can be run with `py.test`.
@@ -99,12 +100,12 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using PyScaffold 4.0 and the [dsproject extension] 0.6.post3+g3ac6c33.
-For details and usage information on PyScaffold see https://pyscaffold.org/.
+This project has been set up using [PyScaffold] 4.0.1 and the [dsproject extension] 0.6.1.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
 [Jupyter]: https://jupyter.org/
 [nbstripout]: https://github.com/kynan/nbstripout
 [Google style]: http://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings
+[PyScaffold]: https://pyscaffold.org/
 [dsproject extension]: https://github.com/pyscaffold/pyscaffoldext-dsproject
