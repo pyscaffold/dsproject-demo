@@ -87,7 +87,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 │                              actual Python package, e.g. train_model.py.
 ├── setup.cfg               <- Declarative configuration of your project.
 ├── setup.py                <- Use `pip install -e .` to install for development or
-|                              or create a distribution with `tox -e build`.
+│                              or create a distribution with `tox -e build`.
 ├── src
 │   └── demo_dsproject      <- Actual Python package where the main functionality goes.
 ├── tests                   <- Unit tests which can be run with `py.test`.
@@ -100,7 +100,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using [PyScaffold] 4.0.1 and the [dsproject extension] 0.6.1.
+This project has been set up using [PyScaffold] 4.0.2 and the [dsproject extension] 0.6.1.post2+gd799bdb.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
