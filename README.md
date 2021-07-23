@@ -1,4 +1,5 @@
 [![ReadTheDocs](https://readthedocs.org/projects/dsproject-demo/badge/?version=latest)](https://dsproject-demo.readthedocs.io/)
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
 <!-- These are examples of badges you might want to add to your README:
      please update the URLs accordingly
 
@@ -10,7 +11,6 @@
 [![Monthly Downloads](https://pepy.tech/badge/demo-dsproject/month)](https://pepy.tech/project/demo-dsproject)
 [![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/demo-dsproject)
 -->
-[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
 
 # demo-dsproject
 
