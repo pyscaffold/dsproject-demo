@@ -1,5 +1,19 @@
 [![ReadTheDocs](https://readthedocs.org/projects/dsproject-demo/badge/?version=latest)](https://dsproject-demo.readthedocs.io/)
 
+<!-- These are examples of badges you might want to add to your README:
+     please update the URLs accordingly
+
+[![Built Status](https://api.cirrus-ci.com/github/<USER>/demo-dsproject.svg?branch=main)](https://cirrus-ci.com/github/<USER>/demo-dsproject)
+[![ReadTheDocs](https://readthedocs.org/projects/demo-dsproject/badge/?version=latest)](https://demo-dsproject.readthedocs.io/en/stable/)
+[![Coveralls](https://img.shields.io/coveralls/github/<USER>/demo-dsproject/main.svg)](https://coveralls.io/r/<USER>/demo-dsproject)
+[![PyPI-Server](https://img.shields.io/pypi/v/demo-dsproject.svg)](https://pypi.org/project/demo-dsproject/)
+[![Conda-Forge](https://img.shields.io/conda/vn/conda-forge/demo-dsproject.svg)](https://anaconda.org/conda-forge/demo-dsproject)
+[![Monthly Downloads](https://pepy.tech/badge/demo-dsproject/month)](https://pepy.tech/project/demo-dsproject)
+[![Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter)](https://twitter.com/demo-dsproject)
+-->
+
+[![Project generated with PyScaffold](https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold)](https://pyscaffold.org/)
+
 # demo-dsproject
 
 Demonstration of a project generated with the Data Science project extension of PyScaffold
@@ -100,7 +114,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using [PyScaffold] 4.0.2 and the [dsproject extension] 0.6.1.post2+gd799bdb.
+This project has been set up using [PyScaffold] 4.0.2 and the [dsproject extension] 0.6.1.post7+g58201be.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
