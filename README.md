@@ -74,6 +74,8 @@ Then take a look into the `scripts` and `notebooks` folders.
 ```
 ├── AUTHORS.md              <- List of developers and maintainers.
 ├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
+├── CONTRIBUTING.md         <- Guidelines for contributing to this project.
+├── Dockerfile              <- Build a docker container with `docker build .`.
 ├── LICENSE.txt             <- License as chosen on the command-line.
 ├── README.md               <- The top-level README for developers.
 ├── configs                 <- Directory for configurations of model & application.
@@ -89,18 +91,19 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── notebooks               <- Jupyter notebooks. Naming convention is a number (for
 │                              ordering), the creator's initials and a description,
 │                              e.g. `1.0-fw-initial-data-exploration`.
-├── pyproject.toml          <- Build system configuration. Do not change!
+├── pyproject.toml          <- Build configuration. Don't change! Use `pip install -e .`
+│                              to install for development or to build `tox -e build`.
 ├── references              <- Data dictionaries, manuals, and all other materials.
 ├── reports                 <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures             <- Generated plots and figures for reports.
 ├── scripts                 <- Analysis and production scripts which import the
-│                              actual Python package, e.g. train_model.py.
+│                              actual PYTHON_PKG, e.g. train_model.
 ├── setup.cfg               <- Declarative configuration of your project.
-├── setup.py                <- Use `pip install -e .` to install for development or
-│                              or create a distribution with `tox -e build`.
+├── setup.py                <- [DEPRECATED] Use `python setup.py develop` to install for
+│                              development or `python setup.py bdist_wheel` to build.
 ├── src
 │   └── demo_dsproject      <- Actual Python package where the main functionality goes.
-├── tests                   <- Unit tests which can be run with `py.test`.
+├── tests                   <- Unit tests which can be run with `pytest`.
 ├── .coveragerc             <- Configuration for coverage reports of unit tests.
 ├── .isort.cfg              <- Configuration for git hook that sorts imports.
 └── .pre-commit-config.yaml <- Configuration of pre-commit git hooks.
@@ -110,7 +113,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using [PyScaffold] 4.0.2 and the [dsproject extension] 0.6.1.post8+gd522e96.
+This project has been set up using [PyScaffold] 4.1.1 and the [dsproject extension] 0.7.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
