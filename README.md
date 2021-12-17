@@ -12,9 +12,7 @@
 
 # demo-dsproject
 
-Demonstration of a project generated with the Data Science project extension of PyScaffold
-
-## Description
+> Demonstration of a project generated with the Data Science project extension of PyScaffold
 
 A longer description of your project goes here...
 
@@ -113,7 +111,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using [PyScaffold] 4.1.1 and the [dsproject extension] 0.7.
+This project has been set up using [PyScaffold] 4.1.1 and the [dsproject extension] 0.7.post3+ge092e2a.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
