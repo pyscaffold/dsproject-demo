@@ -80,7 +80,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 ├── data
 │   ├── external            <- Data from third party sources.
 │   ├── interim             <- Intermediate data that has been transformed.
-│   ├── preprocessed           <- The final, canonical data sets for modeling.
+│   ├── processed           <- The final, canonical data sets for modeling.
 │   └── raw                 <- The original, immutable data dump.
 ├── docs                    <- Directory for Sphinx documentation in rst or md.
 ├── environment.yml         <- The conda environment file for reproducibility.
@@ -111,7 +111,7 @@ Then take a look into the `scripts` and `notebooks` folders.
 
 ## Note
 
-This project has been set up using [PyScaffold] 4.1.1 and the [dsproject extension] 0.7.post3+ge092e2a.
+This project has been set up using [PyScaffold] 4.2.2 and the [dsproject extension] 0.7.2.post1+g9295912.
 
 [conda]: https://docs.conda.io/
 [pre-commit]: https://pre-commit.com/
